@@ -1,0 +1,26 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dot + Camera Control</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dot-container">
+    <div class="dot" id="dot1"></div>
+    <label><input type="checkbox" id="toggle1" /> Dot 1</label>
+
+    <div class="dot" id="dot2"></div>
+    <label><input type="checkbox" id="toggle2" /> Dot 2</label>
+
+    <div class="dot" id="dot3"></div>
+    <label><input type="checkbox" id="toggle3" /> Dot 3</label>
+
+    <label><input type="checkbox" id="camToggle" /> Camera</label>
+    <video id="video" autoplay playsinline></video>
+  </div>
+
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <script src="main.js"></script>
+</body>
+  </html>
