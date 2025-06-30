@@ -1,4 +1,4 @@
-const socket = io("https://dot-camera-control-backend.onrender.com"); // Change if needed
+const socket = io(https://dot-camera-countrol-app.onrender.com); // Change if needed
 
 const dots = [
   { id: "dot1", toggle: "toggle1", event: "dot1Toggle" },
